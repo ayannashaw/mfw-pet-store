@@ -68,12 +68,18 @@ h3 {
 /* below targets the button inside the feature container */
 .feature-container .btn {
     border: 1px solid #78743B;
+    margin-left: 15px;
 }
 
 .services-container .btn {
     border: 1px solid #78743B;
     background-color: #EAE3D0;
 }
+
+.services-container h1 {
+    text-align: center;
+}
+
  /* Footer */
  .footer {
      background-color: #EAE3D0;
