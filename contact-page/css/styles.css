@@ -29,51 +29,54 @@ h3 {
         color: #A19B4F;
         border: 1px solid #A19B4F;
     }
-        
-/* Jumbotron */
-.jumbotron {
-    background-image: url(../img/hero.jpg);
-    background-size: cover;
-    height: 33em;
+
+/* Doctor Bios and Map */
+.doctor-1, .doctor-2 {
+    width: 150px;
+    height: 150px;
+    padding: -15px;
 }
 
-.jumbo-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: white;
-    text-align: center;
-    font-size: 1.75em;
-    text-transform: uppercase;
+h1 {
+    font-size: 20px;
+    font-weight: bold;
 }
 
-/* Featured & Services */
-.product-img {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 400px;
+    width: 450px;
+}
+                
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 450px;
 }
 
-.feature-container {
-    background-color: #EAE3D0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 5px solid white;
-    border-radius: 15px;
+/* Space Between Rows */
+.top-buffer { 
+    margin-top:20px; 
 }
 
-.btn {
-    color: #A19B4F;
+/* Phone # Table and Pictures */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-/* below targets the button inside the feature container */
-.feature-container .btn {
-    border: 1px solid #78743B;
+td, th {
+  text-align: left;
+  padding: 8px;
 }
 
-.services-container .btn {
-    border: 1px solid #78743B;
-    background-color: #EAE3D0;
+tr:nth-child(even) {
+  background-color: #f0f0f0;
 }
+
  /* Footer */
  .footer {
      background-color: #EAE3D0;
